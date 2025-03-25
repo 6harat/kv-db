@@ -1,0 +1,25 @@
+# Binaries and executables
+/bin/
+/build/
+*.exe
+*.out
+*.app
+.DS_Store
+
+# Go-specific files
+*.log
+*.test
+cover.out
+
+# Dependency directories (handled by go modules)
+vendor/
+
+# Configuration files
+.env
+config.yaml
+config.json
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
